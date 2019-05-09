@@ -10,6 +10,8 @@
 
   <title>Setiadjie Rifqy Prapanca's Blog</title>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
   <style>
     @import url('https://fonts.googleapis.com/css?family=Caveat|Shrikhand');
   </style>
@@ -45,8 +47,11 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" style="font-family: 'Caveat'; color: #44D0F8">Certificate</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Certificate" style="font-family: 'Caveat'; color: #44D0F8">Certificate</a>
           </li>
+          <!--<li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Gallery" style="font-family: 'Caveat'; color: #44D0F8">Galler</a>
+          </li>-->
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" style="font-family: 'Caveat'; color: #44D0F8">About</a>
           </li>
@@ -59,9 +64,19 @@
   <header class="masthead bg-primary text-white text-center" style="background-image: url('img/pemandangan3.JPG'); background-size: cover;">
     <div class="container">
       <img class="img-fluid mb-5 d-block mx-auto" src="img/aji.JPG" alt="" style="width: 300px; border-radius: 50px;">
-      <h1 class="text-uppercase mb-0"style="font-family: 'Caveat'; color: #44D0F8">Setiadjie Rifqy Prapanca</h1>
+      <h1 style="font-family: 'Caveat'; color: #44D0F8"><span id="typed"></span></h1>
       <hr class="star-light">
       <h2 class="font-weight-light mb-0"style="font-family: 'Caveat'; color: #44D0F8">I am one of SMK Madinatul Qur'an Students</h2>
+      <h3 style="font-family: 'Caveat'; color: #44D0F8"><span id="typed"></span></h3>
+      <script type="text/javascript">
+          var typed = new Typed("#typed", {
+          strings:["Hello Public!","Hi I am Setiadjie Rifqy Prapanca"],
+          textspeed: 75,
+          starDelay: 100,
+          loop:true
+        })
+      </script>
+
     </div>
   </header>
 
@@ -99,8 +114,23 @@
     </div>
   </section>
 
+<!-- Gallery Grid Section -->
+
+<!--     <section class="bg-primary text-white mb-0" id="Gallery">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary"style="font-family: 'Caveat';">Gallery</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="containe">
+          
+        </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
   <!-- Portfolio Grid Section -->
-  <section class="portfolio bg-primary" id="portfolio">
+  <section class="portfolio bg-primary" id="Certificate">
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0"style="font-family: 'Caveat';">Certificate</h2>
       <hr class="star-light mb-5">
